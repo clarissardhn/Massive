@@ -1,0 +1,28 @@
+.Content1{
+    background-color: whitesmoke;
+    
+}
+.Content2{
+    background-color: #C9E84E;
+    
+}
+.Content3{
+    background-color: azure;
+}
+
+
+.Row1{
+    background-color: #C9E84E;
+    border-radius: 25px;
+}
+.Row2{
+    background-color: #fff;
+    border-radius: 25px;
+}
+.Button{
+    color: #C9E84E;
+}
+
+.text-card{
+    font-size: large;
+}

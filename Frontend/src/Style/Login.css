@@ -1,0 +1,33 @@
+.auth-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .auth-inner {
+    width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+
+  .Textregister{ 
+   text-decoration: none;
+   font-style: italic;
+   color: green;
+  }
+

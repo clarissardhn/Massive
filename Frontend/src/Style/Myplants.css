@@ -1,0 +1,42 @@
+.Content2{
+
+    background-color: white;
+}
+
+.custom-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .custom-card-img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .custom-button {
+    border-radius: 20px;
+  }
+  
+  .custom-card .btn-primary {
+    background-color: #C9E84E;
+    border-color: #C9E84E;
+    color: #000;
+  }
+  
+  .custom-card .btn-secondary {
+    background-color: #E0E0E0;
+    border-color: #E0E0E0;
+    color: #000;
+  }
+  
+  .custom-card .btn-success {
+    background-color: #E0E0E0;
+    border-color: #E0E0E0;
+    color: #000;
+  }
+  .custom-card .card-footer {
+    background-color: transparent;
+    border-top: none;
+  }
+  
