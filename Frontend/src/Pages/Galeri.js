@@ -1,25 +1,18 @@
-import NavigationBar from "../Components/NavigationBar"
-import Footer from "../Components/Footer"
-import { Container, Row, Col } from "react-bootstrap"
-import Galeri1 from "../Gambar/Galeri1.png"
+import React from 'react';
+import Gallery from '../Components/Gallery';
+import NavigationBar from "../Components/NavigationBar";
+import Footer from "../Components/Footer";
 
-const Galeri = () => {
-    return (
-<>
-<NavigationBar/>
-<Container fluid>
-      <Row>
-        <Col>
-          <img src={Galeri1} className="w-100" alt="Gallery Image" />
-        </Col>
-      </Row>
-    </Container>
+function Galeri() {
+  return (
+    <>
+    <div>
+    <NavigationBar />
+      <Gallery />
+    <Footer />
+    </div>
+    </>
+  );
+}
 
-
-    
-</>
-    )
-
-} 
-
-export default Galeri
+export default Galeri;
