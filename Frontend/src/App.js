@@ -7,6 +7,7 @@ import Galeri from './Pages/Galeri'
 import Myplants from './Pages/Myplants'
 import Addtanaman from './Pages/Addtanaman'
 import Pageprogres from './Pages/Pageprogres'
+import GuidesPage from './Pages/GuidesPage'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Route path="/Myplants" element={<Myplants/>} />
     <Route path="/Addtanaman" element={<Addtanaman/>} />
     <Route path="/Pageprogres" element={<Pageprogres/>} />
+    <Route path="/GuidesPage" element={<GuidesPage />} />
     
   </Routes>
  </Router>
